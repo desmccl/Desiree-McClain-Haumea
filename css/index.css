@@ -2,9 +2,23 @@ body {
     background-color: #dfcdc3;
 }
 
-#header2, #header3 {
-    text-align: left;
+#ul3 {
+    list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+#li3 {
+    float: left;
+}
+
+.flex-container2 {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 
 #name {
     font-style: oblique;
@@ -25,6 +39,16 @@ p {
     padding: 30px;
     margin: 10px;
     text-align: center;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container1 > li{
+    text-align: center;
+    text-indent: 1cm;
 }
 
 
