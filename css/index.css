@@ -3,9 +3,11 @@ body {
 }
 
 #ul3 {
-    list-style-type: none;
+  list-style-type: none;
   overflow: hidden;
   position: fixed;
+  margin: 0;
+  padding: 0;
   top: 0%;
   width: 100%;
 }
@@ -53,6 +55,7 @@ body {
 .flex-container2 {
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 
