@@ -110,7 +110,7 @@ img {
     border-radius: 8px;
   }
 
-a:link, a:visited {
+#link:link, #link:visited {
     background-color: #3c4245;;
     color:#dfcdc3;
     padding: 14px 25px;
@@ -119,6 +119,6 @@ a:link, a:visited {
     display: inline-block;
 }
 
-a:hover, a:active {
+#link:hover, #link:active {
     background-color:#719192;
 }

@@ -10,11 +10,11 @@
 <body>
     <nav id="nav">
         <ul id="ul3">
-        <li id="li3"><a href="#About">About</a></li>
-        <li id="li3"><a href="#Experience">Experience</a></li>
-        <li id="li3"><a href="#Skills">Skills</a></li>
-        <li id="li3"><a href="#Projects">Projects</a></li>
-        <li id="li3"><a href="#Connect">Connect</a></li>
+        <li id="li3"><a id="link" href="#About">About</a></li>
+        <li id="li3"><a id="link" href="#Experience">Experience</a></li>
+        <li id="li3"><a id="link" href="#Skills">Skills</a></li>
+        <li id="li3"><a id="link" href="#Projects">Projects</a></li>
+        <li id="li3"><a id="link" href="#Connect">Connect</a></li>
     </ul>
 </nav>
 <h1 id="name">Desiree McClain</h1>
@@ -44,9 +44,30 @@
 </section>
 <section id="Connect" class="flex-container2">
 <h2 id="header3">Connect</h2>
-<a href="https://www.linkedin.com/in/desiree-mcclain-1a6632200/">Linkedin</a>
-<a href="https://github.com/desmccl">Github</a>
-<a href="mailto:desireemcclain51@gmail.com">Email</a>
+<a id="link" href="https://www.linkedin.com/in/desiree-mcclain-1a6632200/">Linkedin</a>
+<a id="link" href="https://github.com/desmccl">Github</a>
+<a id="link" href="mailto:desireemcclain51@gmail.com">Email</a>
+</section>
+<section>
+    <h2>Leave a Message</h2>
+    <form name="leave_message">
+        <input type="text" name="usersName" required="true"><label for="usersName">
+            Name
+        </label><br>
+        <input type="email" name="usersEmail" required="true"><label for="usersEmail">
+            Email
+        </label><br>
+        <textarea name="usersMessage" required="true"></textarea><label for="usersMessage">
+            Message
+        </label><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<section id="messages">
+    <h2>Messages</h2>
+    <ul>
+
+    </ul>
 </section>
 <script src="js/index.js"></script>
 </body>
