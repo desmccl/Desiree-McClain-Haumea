@@ -32,7 +32,7 @@
 </section>
 <section id="Skills">
 <h2>Skills</h2>
-<ul></ul>
+<ul id="ul1" class="flex-container1"></ul>
 </section>
 <p id="p3">These computers from my vintage computers project were featured in the 1997 Batman and Robin movie:</p>
 <ul id="ul2">
@@ -41,6 +41,8 @@
 </ul>
 <section id="Projects">
     <h2>Projects</h2>
+    <ul id="ul1" class="flex-container1">
+    </ul>
 </section>
 <section id="Connect" class="flex-container2">
 <h2 id="header3">Connect</h2>
@@ -50,17 +52,20 @@
 </section>
 <section>
     <h2>Leave a Message</h2>
-    <form name="leave_message">
-        <input type="text" name="usersName" required="true"><label for="usersName">
+    <form name="leave_message" id="form" >
+        <label for="usersName">
             Name
-        </label><br>
-        <input type="email" name="usersEmail" required="true"><label for="usersEmail">
+        </label>
+        <input type="text" name="usersName" required="true"><br></br>
+        <label for="usersEmail">
             Email
-        </label><br>
-        <textarea name="usersMessage" required="true"></textarea><label for="usersMessage">
+        </label>
+        <input type="email" name="usersEmail" required="true"><br></br>
+        <label for="usersMessage">
             Message
-        </label><br>
-        <button type="submit">Submit</button>
+        </label>
+        <textarea name="usersMessage" required="true"></textarea><br></br>
+        <button type="submit" id="submit" >Submit</button>
     </form>
 </section>
 <section id="messages">
