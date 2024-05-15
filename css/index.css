@@ -6,7 +6,7 @@ body {
   list-style-type: none;
   overflow: hidden;
   position: fixed;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   top: 0%;
   width: 100%;
@@ -52,7 +52,7 @@ body {
     
 }
 
-.flex-container2 {
+.flex-container2, #form {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
@@ -110,7 +110,7 @@ img {
     border-radius: 8px;
   }
 
-#link:link, #link:visited {
+#link:link, #link:visited, #submit {
     background-color: #3c4245;;
     color:#dfcdc3;
     padding: 14px 25px;
